@@ -23,7 +23,7 @@ class Speech extends Component {
     this.recognition = new Recognition();
     this.recognition.lang = process.env.REACT_APP_LANGUAGE || "ko-KR";
     this.recognition.continuous = false;
-    this.recognition.interimResults = true;
+    this.recognition.interimResults = false;
     this.recognition.maxAlternatives = 1;
 
     this.recognition.onresult = (event) => {

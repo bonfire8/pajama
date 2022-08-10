@@ -14,6 +14,7 @@ import FadeInOut from "../common/FadeInOut";
 import Modal from "react-bootstrap/Modal";
 import Camera from "./Camera";
 import ReactDOM from "react-dom";
+import Speech from "./Speech";
 
 import html2canvas from "html2canvas";
 import * as tf from "@tensorflow/tfjs";
@@ -662,6 +663,7 @@ class OpenVideo extends Component {
                   height="60px"
                 ></img>
               </button>
+              
             </div>
             <div id="session" className="main-session">
               <div id="main-container" className={Main}>
@@ -770,6 +772,7 @@ class OpenVideo extends Component {
               </div>
             </div>
             <Camera style="display: none" />
+            <Speech />
           </div>
         ) : null}
         {/* <div class="canvas-wrapper"></div> */}
