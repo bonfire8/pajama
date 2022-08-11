@@ -14,7 +14,7 @@ class ListenerButton extends React.Component {
   };
 
   handleStart = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
 
     this.props.onStart();
   };
@@ -25,7 +25,7 @@ class ListenerButton extends React.Component {
         {...this.props}
         className="button"
         onClick={this.handleStart}
-        onMouseMove={this.handleMove}
+        // onMouseMove={this.handleMove}
       >
         <span>{this.props.buttonText}</span>
       </button>

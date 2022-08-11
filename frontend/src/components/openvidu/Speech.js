@@ -10,13 +10,10 @@ class Speech extends Component {
   };
 
   componentDidMount() {
-    const Recognition =
-      window.SpeechRecognition || window.webkitSpeechRecognition;
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
     if (!Recognition) {
-      alert(
-        "Speech Recognition API is not supported in this browser, try chrome"
-      );
+      alert("Speech Recognition API is not supported in this browser, try chrome");
       return;
     }
 
@@ -70,16 +67,26 @@ class Speech extends Component {
     };
   }
 
+  wait(sec) {
+    let start = Date.now(),
+      now = start;
+    while (now - start < sec * 1000) {
+      now = Date.now();
+    }
+  }
+
   start = () => {
     this.recognition.start();
   };
 
   end = () => {
     this.recognition.stop();
+    this.wait(10);
+    this.setState({ show: false });
   };
 
   handleClose = () => {
-    this.setState({ show: false });
+    // this.setState({ show: false });
   };
 
   render() {
@@ -92,9 +99,7 @@ class Speech extends Component {
             onStart={this.start}
             onEnd={this.end}
             disabled={this.state.listening}
-            buttonText={
-              this.state.listening ? "Listening..." : "Click me to listen"
-            }
+            buttonText={this.state.listening ? "Listening..." : "Click me to listen"}
           />
         )}
       </main>

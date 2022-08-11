@@ -73,6 +73,15 @@
 	align-items: center;
 }
 
+.main-video video{
+	border-radius: 30px;
+	height: auto;
+}
+
+.stream-video video{
+	border-radius: 30px;
+}
+
 .cake {
 	text-align: center;
 	width:400px;
