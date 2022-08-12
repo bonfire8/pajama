@@ -28,6 +28,28 @@ class Speech extends Component {
 
       console.log("transcript", text);
       this.setState({ text });
+      const textP = text.includes("파자마");
+      const textN = text.includes("노래");
+      const textT = text.includes("틀어");
+      console.log(textP);
+      console.log(textN);
+      console.log(textT);
+      // 힙합, 싸이월드, 댄스,재즈, 생일 축하, 인디
+      if (textP && textN && textT) {
+        const textHip = text.includes("힙합");
+        const textSW = text.includes("싸이월드");
+        const textDance = text.includes("댄스");
+        const textJazz = text.includes("재즈");
+        const textParty = text.includes("생일");
+        const textIn = text.includes("인디");
+        if (textHip) console.log("힙합");
+        else if (textSW) console.log("싸이월드");
+        else if (textDance) console.log("댄스");
+        else if (textJazz) console.log("재즈");
+        else if (textParty) console.log("생일 축하");
+        else if (textIn) console.log("인디");
+        console.log("노래 틀예정");
+      }
     };
 
     this.recognition.onspeechend = () => {
@@ -53,8 +75,7 @@ class Speech extends Component {
       this.setState({
         listening: false,
       });
-
-      this.end();
+      setTimeout(this.end,1500000);
     };
 
     this.recognition.onerror = (event) => {
@@ -67,21 +88,12 @@ class Speech extends Component {
     };
   }
 
-  wait(sec) {
-    let start = Date.now(),
-      now = start;
-    while (now - start < sec * 1000) {
-      now = Date.now();
-    }
-  }
-
   start = () => {
     this.recognition.start();
   };
 
   end = () => {
     this.recognition.stop();
-    this.wait(10);
     this.setState({ show: false });
   };
 
