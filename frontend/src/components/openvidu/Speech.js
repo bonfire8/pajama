@@ -75,7 +75,7 @@ class Speech extends Component {
       this.setState({
         listening: false,
       });
-      setTimeout(this.end,1500000);
+      setTimeout(this.end,3000);
     };
 
     this.recognition.onerror = (event) => {
