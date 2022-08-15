@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class FeedServiceImpl implements FeedService {
@@ -16,6 +18,23 @@ public class FeedServiceImpl implements FeedService {
     private EncryptionService encryptionService;
     @Autowired
     private FeedRepository feedRepository;
+
+
+    @Override
+    public Map showPicture(String decodeEmail, String roomIdx) throws Exception {
+        String temp = encryptionService.decrypt(roomIdx);
+        int id = Integer.parseInt(temp); // room_idx
+        Map<Integer,String> map = new HashMap<>();
+        List<Feed> list = feedRepository.findByFeedRoomIdxAndFeedUser(id, decodeEmail);
+        int size = list.size();
+        for (int i=0;i<size;i++){
+            Feed feedtemp = list.get(i);
+            String pictureName = feedtemp.getFeedPicture();
+            map.put(i,pictureName);
+        }
+        return map;
+    }
+
     // 피드 대표 값이 있으면 기존 값을 지우고 입력 받은 값으로 설정하기
     @Override
     public FeedShowDto registFeed(FeedRegistDto feedRegistDto) throws Exception {

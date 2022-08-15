@@ -2,6 +2,7 @@ package com.c203.api.controller;
 
 import com.c203.api.dto.Feed.FeedRegistDto;
 import com.c203.api.dto.Feed.FeedShowDto;
+import com.c203.api.dto.User.UserInfoDto;
 import com.c203.api.service.FeedService;
 import com.c203.api.service.JwtService;
 import com.c203.api.service.UserService;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -64,6 +66,29 @@ public class FeedController {
                 result.put("result","success");
             }
             status = HttpStatus.OK;
+        }catch (Exception e){
+            result.put("result","서버에러");
+            status = HttpStatus.INTERNAL_SERVER_ERROR;
+        }
+        return new ResponseEntity<>(result,status);
+    }
+    // 사진 불러오기
+    @GetMapping("/mypage/{roomIdx}")
+    public ResponseEntity<?> showPicture(HttpServletRequest request,@PathVariable("roomIdx") String roomIdx){
+        Map<String,Object> result = new HashMap<>();
+        HttpStatus status;
+        try{
+            String accessToken = request.getHeader("accessToken");
+            String decodeEmail = jwtService.decodeToken(accessToken);
+            if(!decodeEmail.equals("timeout")){
+                Map map = feedService.showPicture(decodeEmail, roomIdx);
+                result.put("result",map);
+                status = HttpStatus.OK;
+            }
+            else{
+                result.put("result","accessToken 타임아웃");
+                status = HttpStatus.UNAUTHORIZED;
+            }
         }catch (Exception e){
             result.put("result","서버에러");
             status = HttpStatus.INTERNAL_SERVER_ERROR;
