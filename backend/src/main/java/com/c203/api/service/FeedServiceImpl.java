@@ -53,6 +53,7 @@ public class FeedServiceImpl implements FeedService {
         }
         feed.setFeedRepresent(true);
         feed.setFeed_description(feedRegistDto.getDescription());
+        feed.setFeedRoomIdx(id);
         feedRepository.save(feed);
         FeedShowDto feedShowDto = new FeedShowDto();
         feedShowDto.setTime(feed.getFeed_time());
