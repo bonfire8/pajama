@@ -1,3 +1,5 @@
+# ![파자마_설명2](C:\Users\multicampus\Desktop\pajama\pajama\assets\header.png)
+
 # 🎉 PAJAMA
 
 ---
@@ -23,29 +25,29 @@
 
 ### WebRTC
 
-![파자마_설명2](/uploads/8b4bf79f68422d10a2d1326aff9365f7/파자마_설명2.png)
+![파자마_설명2](C:\Users\multicampus\Desktop\pajama\pajama\assets\webrtc.png)
 
 ### 모션인식
 
 - 모션 인식을 통한 폭죽 효과
 
-![KakaoTalk_20220817_155957074](/uploads/bfa21173f591cef51f0c4d799cebe149/KakaoTalk_20220817_155957074.gif)
+![KakaoTalk_20220817_155957074](C:\Users\multicampus\Desktop\pajama\pajama\assets\motion.gif)
 
 - 모션 인식을 통한 촛불 끄기
 
-![KakaoTalk_20220817_165807081](/uploads/ef80141941272189f44bd23a002b7cb4/KakaoTalk_20220817_165807081.gif)
+![KakaoTalk_20220817_165807081](C:\Users\multicampus\Desktop\pajama\pajama\assets\motioncandle.gif)
 
 - 모션 인식 ( 하트 )
 
-![ezgif-4-bba324d641](/uploads/87b1def736bf75c7522618ff71e7a770/ezgif-4-bba324d641.gif)
+![ezgif-4-bba324d641](C:\Users\multicampus\Desktop\pajama\pajama\assets\motionheart.gif)
 
 - 모션 인식 ( 브이 )
 
-![ezgif-4-7a9e4914d9](/uploads/53abc83022f199195512993a9c489c10/ezgif-4-7a9e4914d9.gif)
+![ezgif-4-7a9e4914d9](C:\Users\multicampus\Desktop\pajama\pajama\assets\motionv.gif)
 
 - 모션 인식 ( 일 모양 )
 
-![ezgif-4-5b35591b16](/uploads/05b0ece377adeb141327f1c6d1fcbfc7/ezgif-4-5b35591b16.gif)
+![ezgif-4-5b35591b16](C:\Users\multicampus\Desktop\pajama\pajama\assets\motion1.gif)
 
 ### 음성인식(Speech-to-Text)
 
@@ -55,11 +57,11 @@
 
 ## ERD
 
-![Untitled](/uploads/2cbdc2b6923ea334c3d2ba3e1f147fa8/Untitled.png)
+![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\erd.png)
 
 ## ⌨️ 기술스택
 
-![파자마로고작업2](/uploads/a38f463a177d32f35560d46c151aea14/파자마로고작업2.png)
+![파자마로고작업2](C:\Users\multicampus\Desktop\pajama\pajama\assets\tech.png)
 
 ### Server-side
 
@@ -124,48 +126,48 @@
 ```
 
 ## 배포
+
 [바로가기](https://lab.ssafy.com/s07-webmobile1-sub1/S07P11C203/-/blob/master/exec/README.md)
 
 ## 💻서비스 화면
 
 ### 메인 페이지
 
-![Untitled](/uploads/df7a65772f6e32764bff301eb85d09af/Untitled.png)
+![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\main1.png)
 
-![Untitled](/uploads/509751547de6ae917477f1b2dc644797/Untitled.png)
+![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\main2.png)
 
-![Untitled](/uploads/4c97a933e0cbd551abdd3bc10749e594/Untitled.png)
+![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\main3.png)
 
-![Untitled](/uploads/c76af47e533158bdc8446bac8be10a99/Untitled.png)
+![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\main4.png)
 
 ### 회원가입 및 로그인
 
 - 회원가입 ( 본인 인증을 위해 이메일 인증번호 전송 )
 
-![KakaoTalk_20220817_165806635](/uploads/2f10390159ac20f3904f4edc84d4cafc/KakaoTalk_20220817_165806635.gif)
+![KakaoTalk_20220817_165806635](C:\Users\multicampus\Desktop\pajama\pajama\assets\signup.gif)
 
 - 로그인 , 비밀번호 초기화 ( 이메일을
 
-![Untitled](/uploads/6440987cfd7e3a93540db2729b9be542/Untitled.png)
+![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\login.png)
 
 - 아이디 찾기 ( 전화번호를 통해 아이디의 일부를 보여줌 )
-- 
 
-![KakaoTalk_20220817_165806745](/uploads/9067766183dbaadabcbf821ba0852d49/KakaoTalk_20220817_165806745.gif)
+![KakaoTalk_20220817_165806745](C:\Users\multicampus\Desktop\pajama\pajama\assets\findid.gif)
 
 - 비밀번호 찾기 ( 이메일을 통해 새로운 비밀번호를 제공함 )
 
-![KakaoTalk_20220817_165806880](/uploads/c0c3d909c89c460a9f60f782e1ae9f21/KakaoTalk_20220817_165806880.gif)
+![KakaoTalk_20220817_165806880](C:\Users\multicampus\Desktop\pajama\pajama\assets\findpw.gif)
 
 ### 파티룸 생성
 
-![파티생성](/uploads/3227209878f5ffc49ac5f2e118bf1db5/파티생성.gif)
+![파티생성](C:\Users\multicampus\Desktop\pajama\pajama\assets\createparty.gif)
 
 ### 화상 미팅룸 및 그룹 채팅
 
 - 채팅 화면
 
-![KakaoTalk_20220817_145651357](/uploads/266bb670186fd528db78fb75ae64fe14/KakaoTalk_20220817_145651357.png)
+![KakaoTalk_20220817_145651357](C:\Users\multicampus\Desktop\pajama\pajama\assets\chat.png)
 
 ### 음악재생
 
@@ -175,8 +177,8 @@
 
 - 참여한 파티 별로 찍었던 사진을 확인할 수 있음
 
-![Untitled](/uploads/c7c6aaa5874e6df5f2ba46c8c8f6fc2e/Untitled.png)
+![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\mypage.png)
 
 - 여러 사진과 피드 내용 수정, 피드 삭제 가능
 
-![Untitled](/uploads/ed2c61de282f6923f6d0b68d95879156/Untitled.png)
+![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\mypage2.png)
