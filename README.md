@@ -1,4 +1,4 @@
-# ![파자마_설명2](C:\Users\multicampus\Desktop\pajama\pajama\assets\header.png)
+# ![파자마_설명2](C:/Users/multicampus/Desktop/pajama/pajama/assets/header.png)
 
 # 🎉 PAJAMA
 
@@ -25,29 +25,29 @@
 
 ### WebRTC
 
-![파자마_설명2](C:\Users\multicampus\Desktop\pajama\pajama\assets\webrtc.png)
+![파자마_설명2](C:/Users/multicampus/Desktop/pajama/pajama/assets/webrtc.png)
 
 ### 모션인식
 
 - 모션 인식을 통한 폭죽 효과
 
-![KakaoTalk_20220817_155957074](C:\Users\multicampus\Desktop\pajama\pajama\assets\motion.gif)
+![KakaoTalk_20220817_155957074](C:/Users/multicampus/Desktop/pajama/pajama/assets/motion.gif)
 
 - 모션 인식을 통한 촛불 끄기
 
-![KakaoTalk_20220817_165807081](C:\Users\multicampus\Desktop\pajama\pajama\assets\motioncandle.gif)
+![KakaoTalk_20220817_165807081](C:/Users/multicampus/Desktop/pajama/pajama/assets/motioncandle.gif)
 
 - 모션 인식 ( 하트 )
 
-![ezgif-4-bba324d641](C:\Users\multicampus\Desktop\pajama\pajama\assets\motionheart.gif)
+![ezgif-4-bba324d641](C:/Users/multicampus/Desktop/pajama/pajama/assets/motionheart.gif)
 
 - 모션 인식 ( 브이 )
 
-![ezgif-4-7a9e4914d9](C:\Users\multicampus\Desktop\pajama\pajama\assets\motionv.gif)
+![ezgif-4-7a9e4914d9](C:/Users/multicampus/Desktop/pajama/pajama/assets/motionv.gif)
 
 - 모션 인식 ( 일 모양 )
 
-![ezgif-4-5b35591b16](C:\Users\multicampus\Desktop\pajama\pajama\assets\motion1.gif)
+![ezgif-4-5b35591b16](C:/Users/multicampus/Desktop/pajama/pajama/assets/motion1.gif)
 
 ### 음성인식(Speech-to-Text)
 
@@ -61,7 +61,7 @@
 
 ## ⌨️ 기술스택
 
-![파자마로고작업2](C:\Users\multicampus\Desktop\pajama\pajama\assets\tech.png)
+![파자마로고작업2](C:/Users/multicampus/Desktop/pajama/pajama/assets/tech.png)
 
 ### Server-side
 
@@ -133,41 +133,41 @@
 
 ### 메인 페이지
 
-![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\main1.png)
+![Untitled](C:/Users/multicampus/Desktop/pajama/pajama/assets/main1.png)
 
-![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\main2.png)
+![Untitled](C:/Users/multicampus/Desktop/pajama/pajama/assets/main2.png)
 
-![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\main3.png)
+![Untitled](C:/Users/multicampus/Desktop/pajama/pajama/assets/main3.png)
 
-![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\main4.png)
+![Untitled](C:/Users/multicampus/Desktop/pajama/pajama/assets/main4.png)
 
 ### 회원가입 및 로그인
 
 - 회원가입 ( 본인 인증을 위해 이메일 인증번호 전송 )
 
-![KakaoTalk_20220817_165806635](C:\Users\multicampus\Desktop\pajama\pajama\assets\signup.gif)
+![KakaoTalk_20220817_165806635](C:/Users/multicampus/Desktop/pajama/pajama/assets/signup.gif)
 
 - 로그인 , 비밀번호 초기화 ( 이메일을
 
-![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\login.png)
+![Untitled](C:/Users/multicampus/Desktop/pajama/pajama/assets/login.png)
 
 - 아이디 찾기 ( 전화번호를 통해 아이디의 일부를 보여줌 )
 
-![KakaoTalk_20220817_165806745](C:\Users\multicampus\Desktop\pajama\pajama\assets\findid.gif)
+![KakaoTalk_20220817_165806745](C:/Users/multicampus/Desktop/pajama/pajama/assets/findid.gif)
 
 - 비밀번호 찾기 ( 이메일을 통해 새로운 비밀번호를 제공함 )
 
-![KakaoTalk_20220817_165806880](C:\Users\multicampus\Desktop\pajama\pajama\assets\findpw.gif)
+![KakaoTalk_20220817_165806880](C:/Users/multicampus/Desktop/pajama/pajama/assets/findpw.gif)
 
 ### 파티룸 생성
 
-![파티생성](C:\Users\multicampus\Desktop\pajama\pajama\assets\createparty.gif)
+![파티생성](C:/Users/multicampus/Desktop/pajama/pajama/assets/createparty.gif)
 
 ### 화상 미팅룸 및 그룹 채팅
 
 - 채팅 화면
 
-![KakaoTalk_20220817_145651357](C:\Users\multicampus\Desktop\pajama\pajama\assets\chat.png)
+![KakaoTalk_20220817_145651357](C:/Users/multicampus/Desktop/pajama/pajama/assets/chat.png)
 
 ### 음악재생
 
@@ -177,8 +177,8 @@
 
 - 참여한 파티 별로 찍었던 사진을 확인할 수 있음
 
-![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\mypage.png)
+![Untitled](C:/Users/multicampus/Desktop/pajama/pajama/assets/mypage.png)
 
 - 여러 사진과 피드 내용 수정, 피드 삭제 가능
 
-![Untitled](C:\Users\multicampus\Desktop\pajama\pajama\assets\mypage2.png)
+![Untitled](C:/Users/multicampus/Desktop/pajama/pajama/assets/mypage2.png)
