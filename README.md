@@ -1,4 +1,4 @@
-# ![파자마_설명2](C:/Users/multicampus/Desktop/pajama/pajama/assets/header.png)
+# ![파자마_설명2](assets/header.png)
 
 # 🎉 PAJAMA
 
